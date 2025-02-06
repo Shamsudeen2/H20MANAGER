@@ -395,6 +395,9 @@ color: #0C2340;
     <h2 class="ddate" style=" float:right;
     margin-top:-540px;
     margin-right:590px;">Date</h2>
+    <h2 class="ddate" style=" float:right;
+    margin-top:-540px;
+    margin-right:590px;">Date</h2>
  <b><?php  require "includes/calander.php"; ?></b>
 
  </section>

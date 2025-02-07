@@ -389,12 +389,7 @@ color: #0C2340;
      </main>
  </aside> 
 
- <h2 class="ddate" style=" float:right;
-    margin-top:-540px;
-    margin-right:590px;">Date</h2>
-    <h2 class="ddate" style=" float:right;
-    margin-top:-540px;
-    margin-right:590px;">Date</h2>
+
     <h2 class="ddate" style=" float:right;
     margin-top:-540px;
     margin-right:590px;">Date</h2>

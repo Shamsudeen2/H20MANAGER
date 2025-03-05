@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
-    <link rel="stylesheet" type="text/css" href="asset\maint.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>SignIn and sugnup</title>
+    <link rel="stylesheet" href="asset\maint.css">
 </head>
 
 <body>
@@ -23,7 +22,7 @@
             <input type="password" name="password" placeholder="Enter Password"><br><br>
             <label>Comform Password</label><br>
             <input type="Password" name="Cpassword" placeholder="Comform Password"><br><br>
-            <input type="submit" value="Sign Up" class="submit">
+            <input type="submit" value="Sign Up" class="submit" action="dashbord.php">
             <p>----------Or----------</p>
             <p class="otheropption">Already have account <a href="#" id="otheropptionIn">Sign In</a></p>
         </form>
@@ -36,7 +35,7 @@
             <input type="email" name="email" placeholder="Enter Email"><br><br>
             <label>Password</label><br>
             <input type="password" name="password" placeholder="Enter Password"><br><br>
-            <input type="submit" value="Sign In" class="submit">
+            <input type="submit" value="Sign In" class="submit" action="dashbord.php">
             <p>----------Or----------</p>
             <p class="otheropption">Don't have account <a href="#" id="otheropptionUp">Sign Up</a></p>
         </form>

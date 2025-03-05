@@ -8,7 +8,7 @@
     <style>
         .footer {
   background-color:  #00356B;
-  position: relative;
+  position: fixed;
   bottom: 0;
   color: white;
   text-align: center; 
@@ -18,6 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index:1;
 }
 
 .footer a {
@@ -39,7 +40,8 @@
 
 
 <footer class="footer">
-  <p>&copy; 2025 Shamsuddin. All rights reserved.</p>
+  <p>&copy; 2025 H02MANAGER
+  . All rights reserved.</p>
   <p>
     Follow us on 
     <a href="https://twitter.com">Twitter</a>, 

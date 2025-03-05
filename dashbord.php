@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
+    <title>Dashbord</title>
     <link rel="stylesheet" type="text/css" href="asset\nav.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Bootstrap CSS -->
@@ -57,7 +57,7 @@ width: 90%;
 
 
 
-span {
+aside span {
 background-color: aliceblue;
 width: 100%;
 border-radius: 6px;
@@ -111,6 +111,11 @@ grid-template-columns: repeat(1, 1fr);
 padding: 10px;
 text-align:center;
 }
+
+.span{
+    display: none;
+}
+
 }
 .qlinks main {
 background-color: aliceblue;
@@ -173,13 +178,13 @@ article p {
 margin-top: 0px;
 }
 
-span h1 {
-margin-top: -34px;
-padding: 10px;
-text-align: center;
-font-size: 2.5em;
-color: #0C2340;
 
+
+span h1 {
+font-size: 2em;
+color: #0C2340;
+margin: 0;
+padding: 10px;
 
 }
 
@@ -250,7 +255,7 @@ color: #0C2340;
 }
 }
 
-@keyframes bounce-in-fwd {
+@keyframes bounce-in-fwd {  
 0% {
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -311,10 +316,7 @@ color: #0C2340;
 }
 
 
-.calander{
-    background:red;
-    height: 500px;
-}
+
 
 
 
@@ -341,7 +343,7 @@ color: #0C2340;
          <article>
              <p>Total  Discription</p>
              <p><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="m140-220-60-60 300-300 160 160 284-320 56 56-340 384-160-160-240 240Z"/></svg></p>
-           </article>
+        </article>
            <h1>4000</h1>
      </span>
      <span style="border-right:solid #430cb9 10px;">
@@ -390,10 +392,19 @@ color: #0C2340;
  </aside> 
 
 
-    <h2 class="ddate" style=" float:right;
-    margin-top:-540px;
-    margin-right:590px;">Date</h2>
- <b><?php  require "includes/calander.php"; ?></b>
+    
+    <span class="span" style="position: absolute;
+                 right:6%;
+                 top:23%; 
+                 width:36%;
+                
+                 ">
+    <h2 style="margin-top: -40px;">Calander</h2>
+    <p>
+    <?php  require "includes/calander.php"; ?>
+    </p>
+    </span>
+ 
 
  </section>
 

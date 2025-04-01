@@ -1,3 +1,14 @@
+
+<?php
+session_start();
+if (!isset($_SESSION['email'])) {
+    header("Location: index.php");
+}
+$userId = $_SESSION['email'];
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 

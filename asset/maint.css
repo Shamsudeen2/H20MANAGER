@@ -1,5 +1,12 @@
 body {
- 
+      background: #f0f0f0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
 
     @media only screen and (max-width: 600px) {
@@ -32,12 +39,13 @@ body {
     }
     
     form input{
-    background:ghostwhite;
-    height:40px;
+    background:white;
+    height:50px;
     width:100%;
     outline:none;
     border:none;
     padding:10px;
+    border: solid 0.5px #0a1949;
     border-radius:4px;
     }
     
@@ -60,7 +68,7 @@ body {
       cursor: pointer;
       display: inline-flex;
       font-family: "JetBrains Mono",monospace;
-      height: 34px;
+      height: 40px;
       justify-content: center;
       line-height: 1;
       list-style: none;
